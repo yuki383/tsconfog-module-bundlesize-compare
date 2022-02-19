@@ -1,0 +1,1 @@
+# tsconfog-module-bundlesize-compare
