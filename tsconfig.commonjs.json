@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/tscommonjs",
+    "strict": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node"
+  }
+}
