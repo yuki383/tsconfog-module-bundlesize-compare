@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle-esm": "webpack -c webpack.esm.config.js",
+    "bundle-commonjs": "webpack -c webpack.commonjs.config.js"
   },
   "repository": {
     "type": "git",

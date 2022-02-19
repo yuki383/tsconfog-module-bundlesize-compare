@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: 'production',
+  mode: "production",
   entry: "./src/index.ts",
   output: {
     filename: "main.esm.js",
@@ -17,6 +17,7 @@ module.exports = {
 
             options: {
               transpileOnly: true,
+              configFile: "tsconfig.esm.json",
             },
           },
         ],

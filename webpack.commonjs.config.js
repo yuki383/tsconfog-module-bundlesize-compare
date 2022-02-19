@@ -17,6 +17,7 @@ module.exports = {
 
             options: {
               transpileOnly: true,
+              configFile: "tsconfig.commonjs.json"
             },
           },
         ],
