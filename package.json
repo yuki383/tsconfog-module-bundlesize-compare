@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "bundle-esm": "webpack -c webpack.esm.config.js",
-    "bundle-commonjs": "webpack -c webpack.commonjs.config.js"
+    "bundle-commonjs": "webpack -c webpack.commonjs.config.js",
+    "ts-esm": "tsc -p tsconfig.esm.json",
+    "ts-commonjs": "tsc -p tsconfig.commonjs.json"
   },
   "repository": {
     "type": "git",
