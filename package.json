@@ -7,7 +7,10 @@
     "bundle-esm": "webpack -c webpack.esm.config.js",
     "bundle-commonjs": "webpack -c webpack.commonjs.config.js",
     "ts-esm": "tsc -p tsconfig.esm.json",
-    "ts-commonjs": "tsc -p tsconfig.commonjs.json"
+    "ts-commonjs": "tsc -p tsconfig.commonjs.json",
+    "bundle": "npm run bundle-esm; npm run bundle-commonjs",
+    "ts": "npm run ts-esm; npm run ts-commonjs",
+    "all": "npm run bundle; npm run ts"
   },
   "repository": {
     "type": "git",
